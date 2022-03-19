@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "biseccion/1.0.0": {
+        "dependencies": {
+          "info.lundin.math": "1.1.5287.18951"
+        },
+        "runtime": {
+          "biseccion.dll": {}
+        }
+      },
+      "info.lundin.math/1.1.5287.18951": {
+        "runtime": {
+          "info.lundin.math.dll": {
+            "assemblyVersion": "1.1.5287.18951",
+            "fileVersion": "1.1.5287.18951"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "biseccion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "info.lundin.math/1.1.5287.18951": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

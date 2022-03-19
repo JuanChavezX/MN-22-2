@@ -47,4 +47,13 @@ Public Class Form1
         Loop
         tr.Text = Math.Round(x(i), redon)
     End Sub
+
+    Private Sub Limpiar_Click(sender As Object, e As EventArgs) Handles Limpiar.Click
+        tf.Clear()
+        ta.Clear()
+        tb.Clear()
+        tc.Clear()
+        Salida.Rows.Clear()
+        tr.Clear()
+    End Sub
 End Class

@@ -1,4 +1,4 @@
-﻿Imports info.lundin.math
+Imports info.lundin.math
 Public Class Form1
     Dim a As Single
     Dim b As Single
@@ -10,6 +10,10 @@ Public Class Form1
     Dim redon As Integer
     Dim g As Graphics
     Dim j As Single
+    Dim a1 As Single
+    Dim b1 As Single
+    Dim a2 As Single
+    Dim b2 As Single
     Function f(x As Single) As Single
         Dim parser As ExpressionParser
         parser = New ExpressionParser
@@ -24,6 +28,8 @@ Public Class Form1
     Private Sub Calcular_Click(sender As Object, e As EventArgs) Handles Calcular.Click
         a = ta.Text
         b = tb.Text
+        a1 = a - 1
+        b1 = b + 1
         c = tc.Text
         ec = 0.5 * 10 ^ (-c)
         redon = c + 2
@@ -65,10 +71,11 @@ Public Class Form1
 
     Private Sub Graficar_Click(sender As Object, e As EventArgs) Handles Graficar.Click
         g = Graf.CreateGraphics()
-        j = a
-        Do While j <= b
-            Graf.Series(0).Points.AddXY(j, f(j))
+        j = a1
+        Do While j <= b1
+            Graf.Series(0).Points.AddXY(Math.Round(j, 1), f(j))
             j = j + 0.1
         Loop
+        Graf.Series(1).Points.AddXY(Math.Round(x(i), 1), f(x(i)))
     End Sub
 End Class

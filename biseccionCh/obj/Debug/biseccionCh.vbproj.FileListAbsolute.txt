@@ -1,0 +1,13 @@
+C:\Users\juano\source\repos\biseccionCh\bin\Debug\biseccionCh.exe.config
+C:\Users\juano\source\repos\biseccionCh\bin\Debug\biseccionCh.exe
+C:\Users\juano\source\repos\biseccionCh\bin\Debug\biseccionCh.pdb
+C:\Users\juano\source\repos\biseccionCh\bin\Debug\biseccionCh.xml
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.vbproj.AssemblyReference.cache
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.Form1.resources
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.Resources.resources
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.vbproj.GenerateResource.cache
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.vbproj.CoreCompileInputs.cache
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.vbproj.CopyComplete
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.exe
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.xml
+C:\Users\juano\source\repos\biseccionCh\obj\Debug\biseccionCh.pdb
